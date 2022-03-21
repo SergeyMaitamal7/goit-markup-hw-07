@@ -1,0 +1,12 @@
+.footer {
+  padding-bottom: 60px;
+  padding-top: 60px;
+  background-color: var(--fon-background-grey);
+}
+.footer__container {
+  display: flex;
+  align-items: baseline;
+}
+.width-adress {
+  min-width: 231px;
+}
