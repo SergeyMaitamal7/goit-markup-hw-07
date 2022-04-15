@@ -16,10 +16,13 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
 }
-.content__link:hover .div--owerlay,
-.content__link:focus .div--owerlay {
-  opacity: 0.9;
-  transform: translateY(0%);
+
+.content__link {
+  &:hover .div--owerlay,
+  &:focus .div--owerlay {
+    opacity: 0.9;
+    transform: translateY(0%);
+  }
 }
 .content__text--owerlay {
   padding: 63px 24px;
@@ -43,7 +46,6 @@
   letter-spacing: 0.06em;
   color: var(--header-color-black);
 }
-
 .content__text {
   font-size: 16px;
   line-height: 1.87;

@@ -1,20 +1,25 @@
-@import "./base/variables";
+@import "./utils/variables";
 @import "./utils/visually-hidden";
-@import "./layout/header";
-@import "./components/logo";
-@import "./layout/navigation";
-@import "./components/hero";
+
+@import "./base/common";
+@import "./base/containers";
+
 @import "./components/btn";
-@import "./components/benefits";
-@import "./components/work";
-@import "./components/team";
-@import "./components/team_icon";
-@import "./components/clients";
-@import "./components/filter_btn";
-@import "./components/content";
-@import "./components/overlay";
-@import "./layout/footer";
-@import "./layout/addres";
+@import "./components/icon_links";
 @import "./components/join";
 @import "./components/form";
+@import "./components/logo";
 @import "./components/modal";
+@import "./components/overlay";
+
+@import "./layout/addres";
+@import "./layout/benefits";
+@import "./layout/clients";
+@import "./layout/content";
+@import "./layout/header";
+@import "./layout/navigation";
+@import "./layout/footer";
+@import "./layout/hero";
+@import "./layout/team";
+@import "./layout/team_icon";
+@import "./layout/work";
