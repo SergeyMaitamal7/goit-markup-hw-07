@@ -6,7 +6,7 @@
 .navigation__list {
   display: flex;
 
-  &.navigation__item:not(:last-child) {
+  & .navigation__item:not(:last-child) {
     margin-right: 50px;
   }
 }
@@ -22,7 +22,7 @@
   display: flex;
   margin-left: auto;
 
-  .navigation__list-contacts .navigation__item-contacts:not(:last-child) {
+  & .navigation__item-contacts:not(:last-child) {
     margin-right: 50px;
   }
 }

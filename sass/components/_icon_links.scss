@@ -16,7 +16,11 @@
     fill: var(--header-color-white);
   }
 }
-.icon__link--light {
+.icon__link_light {
   background-color: var(--header-color-white);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link_dark {
+  background-color: rgba(255, 255, 255, 0.1);
 }
