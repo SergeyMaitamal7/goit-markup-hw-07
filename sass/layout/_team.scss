@@ -1,7 +1,7 @@
 .section__background {
   background: var(--bacground-team);
 }
-.team {
+.team-title {
   margin-bottom: 50px;
   text-align: center;
   font-weight: 700;
@@ -10,7 +10,7 @@
   letter-spacing: 0.03em;
   color: var(--header-color-black);
 }
-.team__list {
+.team {
   display: flex;
 }
 .team__item {
@@ -38,7 +38,7 @@
   letter-spacing: 0.03em;
   color: var(--header-color-black);
 }
-.team-list:not(:last-child) {
+.team:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -51,10 +51,4 @@
   letter-spacing: 0.03em;
   color: var(--text-color-grey);
 }
-.team__list-socials {
-  display: flex;
-  justify-content: center;
-}
-.team__list-socials_margin {
-  margin-top: 16px;
-}
+

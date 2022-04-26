@@ -17,16 +17,6 @@
   letter-spacing: 0.02em;
   color: var(--text-color-grey);
 }
-
-.navigation__list-contacts {
-  display: flex;
-  margin-left: auto;
-
-  & .navigation__item-contacts:not(:last-child) {
-    margin-right: 50px;
-  }
-}
-
 .navigation__link {
   position: relative;
   display: block;
@@ -66,7 +56,16 @@
   color: var(--btn-color-blue);
 }
 
-.navigation__link-tel {
+.contacts-list {
+  display: flex;
+  margin-left: auto;
+
+  & .contacts-list__item:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+.contacts-list__link-tel {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -83,7 +82,7 @@
   }
 }
 
-.navigation__svg-icon {
+.contacts-list__svg-icon {
   margin-right: 10px;
   fill: currentColor;
 }

@@ -7,12 +7,12 @@
   text-transform: uppercase;
   color: var(--header-color-white);
 }
-.form-footer {
+.form {
   display: flex;
   min-width: 570px;
 }
 
-.input-footer {
+.form__input {
   min-width: 358px;
   margin-right: 12px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -64,7 +64,7 @@
   }
 }
 
-.submit-icon-send {
+.submit-footer__icon-send {
   fill: var(--header-color-white);
   align-items: center;
   margin-left: 10px;
